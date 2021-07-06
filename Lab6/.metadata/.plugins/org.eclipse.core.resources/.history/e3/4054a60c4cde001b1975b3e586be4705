@@ -1,0 +1,26 @@
+package task2;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args)
+	{
+		int a[][]=new int[3][3],i,j,sum1=0,sum2=0;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the elements ");
+		for(i=0;i<3;i++)
+		{
+			for(j=0;j<3;j++) 
+			{
+				System.out.printf("%d",a[i][j]);
+			}
+				
+		}
+		
+		
+		
+
+	}
+
+}
